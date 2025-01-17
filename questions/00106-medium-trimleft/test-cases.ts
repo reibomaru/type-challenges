@@ -9,3 +9,5 @@ type cases = [
   Expect<Equal<TrimLeft<''>, ''>>,
   Expect<Equal<TrimLeft<' \n\t'>, ''>>,
 ]
+
+let hoge: TrimLeft<' str'>
